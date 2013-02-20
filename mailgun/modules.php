@@ -27,7 +27,7 @@ function sendMessageRecipVars($tostring,$recipvarstring,$subject,$body)
       $ch,
       CURLOPT_POSTFIELDS,
       array(
-          'from' => 'Anmol <anmol@anmolgagneja.mailgun.org>',
+          'from' => 'Anmol <postmaster@anmolgagneja.mailgun.org>',
 	  'to' => $tostring,
 	  'subject' => $subject,
 	  'html' => $body,
