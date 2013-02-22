@@ -21,7 +21,7 @@ if (isset($_POST['towithrecip']))
       }
 
 
-echo $ee->mailMerge($csv, "anmol@thegeekbox.com", "Anmol",$_POST['subjectwithrecip'], $_POST['htmlbodywithrecip']);    
+echo $ee->mailMerge($csv, "email@saliraganar.com", "Saliraganar",$_POST['subjectwithrecip'], $_POST['htmlbodywithrecip']);    
   }
 
 

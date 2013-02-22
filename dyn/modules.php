@@ -5,7 +5,7 @@ function sendMail($tomail,$subject,$htmlbody)
 $type = 'POST';
 $returnTypes = array('xml' => 'text/xml',
 'json' => 'application/json', 'html' => 'text/html' );
-$data='apikey=904ac55d21c773185063394e9deb9161&from=anmol@thegeekbox.com&to='.$tomail.'&subject='.$subject.'&bodyhtml='.$htmlbody;
+$data='apikey=904ac55d21c773185063394e9deb9161&from=email@saliraganar.com&to='.$tomail.'&subject='.$subject.'&bodyhtml='.$htmlbody;
 // Set up request
 $ch = curl_init();
 try
